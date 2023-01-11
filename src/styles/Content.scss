@@ -1,0 +1,15 @@
+.title{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0px 0px 0px 64px;
+    padding: 68px 0px 40px;
+}
+.content{
+    grid-row-gap: 32px;
+    display: grid;
+    flex: 0 0 auto;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
