@@ -1,0 +1,49 @@
+ .card{
+    width: 279px;
+    height: 372px;
+    background-color: #FFFFFF;
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 10px 10px 10px 10px ;
+    overflow: hidden;
+    .image-container{
+        overflow: hidden;
+        max-height: 50%;
+        
+        .image{
+            max-width: 20rem;
+            transition: .5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .body-container{
+        padding: 16px 24px 24px;
+        p{
+            font-family: 'Helvetica', sans-serif;
+        }
+        
+        .header{
+            display: block;
+            font-weight: 900;
+            margin: 0px 0px 8px;
+            font-size: 1.25rem;
+        }
+        
+        .summary{
+            color: #A4A9AF ;
+            font-size: small;
+            margin-bottom: 0px;
+        }
+        
+        .bottom{
+            display: flex;
+            font-size: 12px;
+            justify-content: space-between;
+            margin: 16px 0px 0px;
+            color: #A4A9AF ;
+
+        }
+    }
+        
+ }
