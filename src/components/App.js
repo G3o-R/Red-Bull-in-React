@@ -2,6 +2,7 @@ import "../styles/App.scss"
 import Header from "./Header"
 import ImageCarousel from "./ImageCarousel"
 import Content from "./Content.js"
+import FooterBillBoard from "./FooterBillboard"
 import { useState } from "react"
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <ImageCarousel />
       <Content /> 
       <Header effect={effect}/>
+      <FooterBillBoard />
     </div>
   );
 }

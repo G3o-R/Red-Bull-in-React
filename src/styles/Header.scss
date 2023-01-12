@@ -3,21 +3,21 @@
 .menu-header-content{
     width: 100%;
     position: fixed;
-    background: #00162b;
 }
-    //I've gotta figure out how to make this transparent after 400px
-    // .header--transparent{
-    //     background-color: transparent;
-    // }
+//I've gotta figure out how to make this transparent after 400px
+.header--transparent{
+        background-color: transparent;
+        background: transparent;
+    }
     .header--hidden{
         display: none;
         
     }
     
-.menu-header{
-    position: fixed;
-    justify-content: space-between;
-    background-color: transparent;
+    .menu-header{
+        position: fixed;
+        justify-content: space-between;
+        background: #00162b;
     align-items: center;
     display: flex;
     top: 0;
