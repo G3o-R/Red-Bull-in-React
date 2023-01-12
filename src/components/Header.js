@@ -4,9 +4,7 @@ import { ReactComponent as UserIcon } from "../images/user.svg"
 import { ReactComponent as SearchIcon } from "../images/search.svg"
 import NavPill from "./NavPill"
 
-function Header({effect}){  
-    console.log(effect) 
-   
+function Header({effect}){     
     // use useState to change class
 
    

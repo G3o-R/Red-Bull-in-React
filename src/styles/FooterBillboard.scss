@@ -1,6 +1,19 @@
 .footer{
     background-color: #00162b;
-    ul{
+    padding: 52px 0px;
+    .navigation{
+        display: grid;
+        ul{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFFFFF;
+            margin: 0px 0px 0px 64px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+    }
+    .copyRight{
         font-family: Arial, Helvetica, sans-serif;
         color: #FFFFFF;
     }

@@ -4,7 +4,9 @@ function ImageCarousel(){
     return(
             <div className="container">
         <div className="imageCarousel">
-            {/* <img className="image" alt="buggy" src="https://img.redbull.com/images/c_crop,x_1225,y_0,h_2250,w_1688/c_fill,w_580,h_829/q_auto,f_auto/redbullcom/2022/12/19/ekjjmprxxjg331pztsu3/red-bull-scrable-series"/> */}
+            <h2 className="event">OFFROAD</h2>
+            <h2 className="title"> Scramble series returns for an action-packed season</h2>
+            <button className="btn">View Event Calandar</button>
             </div>
         </div>
     )
