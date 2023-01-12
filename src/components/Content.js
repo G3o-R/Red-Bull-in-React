@@ -4,9 +4,9 @@ import CardData from "../data/cardData.js"
 
 
 function Content(){
-    return(<>
-        <div className="title">Discover the World of Red Bull</div>
-        <div className="card-feed">
+    return(<div className="content-layout">
+    <div className="title">Discover the World of Red Bull</div>
+    <div className="card-feed">
         <div className="content-grid">
         {/* create card component */}
         {CardData.map((data)=> <Card 
@@ -19,8 +19,8 @@ function Content(){
         />)}
         {/* load more button */}
     </div>
-        </div>
-                                </>
+    </div>
+    </div>
     )
 }
 

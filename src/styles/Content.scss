@@ -1,24 +1,30 @@
+.content-layout{
+    justify-content: center;
+    margin: 0px 0px 0px 64px;
+    padding: 68px 0px 40px;
+}
 .title{
+    margin: 0px 0px 0px 64px;
     font-weight: 700;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    margin: 0px 0px 0px 64px;
-    padding: 68px 0px 40px;
+    height: 2em;
 }
 .card-feed{
     position: relative;
     // padding-left: 18rem;
     // have to decrease space between cards somehow
     // justify-content: space-around;
+    justify-content: center;
 
     .content-grid{
         grid-row-gap: 32px;
-        column-gap: 24px;
+        gap: 24px;
     // column-gap: ;
     // display:flexbox;
     display: grid;
-    grid-template-columns: repeat(3,.5fr);
+    grid-template-columns: repeat(3,29.5rem);
     // grid-template-columns: 1fr;
     margin: 0px 0px 24px 64px;
     // margin-bottom: 32px;
