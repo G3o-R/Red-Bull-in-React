@@ -6,7 +6,8 @@ import CardData from "../data/cardData.js"
 function Content(){
     return(<>
         <div className="title">Discover the World of Red Bull</div>
-        <div className="content">
+        <div className="card-feed">
+        <div className="content-grid">
         {/* create card component */}
         {CardData.map((data)=> <Card 
         image={data.image} 
@@ -15,9 +16,10 @@ function Content(){
         tag={data.tag}
         readTime={data.readTime}
         key={data.id}
-                                />)}
+        />)}
         {/* load more button */}
     </div>
+        </div>
                                 </>
     )
 }

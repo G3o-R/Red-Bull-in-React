@@ -6,12 +6,22 @@
     margin: 0px 0px 0px 64px;
     padding: 68px 0px 40px;
 }
-.content{
-    grid-row-gap: 32px;
+.card-feed{
+    position: relative;
+    // padding-left: 18rem;
+    // have to decrease space between cards somehow
+    // justify-content: space-around;
+
+    .content-grid{
+        grid-row-gap: 32px;
+        column-gap: 24px;
+    // column-gap: ;
+    // display:flexbox;
     display: grid;
-    flex: 0 0 auto;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,.5fr);
+    // grid-template-columns: 1fr;
     margin: 0px 0px 24px 64px;
     // margin-bottom: 32px;
     // margin-left: 16px;
+}
 }

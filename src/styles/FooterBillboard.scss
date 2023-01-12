@@ -3,6 +3,12 @@
     padding: 52px 0px;
     .navigation{
         display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 66%;
+        flex-wrap: wrap;
+        columns: 1fr 1fr 1fr;
+        row-gap: 16px;
+        margin-left: 15em;
         ul{
             font-family: Arial, Helvetica, sans-serif;
             color: #FFFFFF;
@@ -14,6 +20,11 @@
 
     }
     .copyRight{
+        // position: relative;
+        // white-space: nowrap;
+        // padding-right: 0px;
+        margin-right: 0px ;
+        width: fit-content;
         font-family: Arial, Helvetica, sans-serif;
         color: #FFFFFF;
     }

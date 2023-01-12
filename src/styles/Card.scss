@@ -1,16 +1,16 @@
  .card{
-    width: 17.5rem;
-    height: 23.5rem;
+    width: 29.5rem;
+    height: 39.5rem;
     background-color: #FFFFFF;
     border: 1px solid hsla(0,0%,100%,.2);
     border-radius: 10px 10px 10px 10px ;
     overflow: hidden;
     .image-container{
         overflow: hidden;
-        max-height: 50%;
+        max-height: 75%;
         
         .image{
-            max-width: 20rem;
+            max-width: 30rem;
             transition: .5s;
             &:hover{
                 transform: scale(1.1);

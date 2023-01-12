@@ -20,9 +20,9 @@ function FooterBillBoard(){
                     <ul>Do Not Sell/Share My Personal Information</ul>
                     <ul>Limit Use of My Sensitive Personal Information</ul>
                 </div>
-                <ul className="copyRight">
+                <p className="copyRight">
                 © 2023 Red Bull
-                </ul>
+                </p>
             </div>
         </div>
     )
