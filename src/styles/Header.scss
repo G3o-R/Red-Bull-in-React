@@ -1,8 +1,23 @@
+@import "./index.scss";
+
+.menu-header-content{
+    width: 100%;
+    position: fixed;
+    background: #00162b;
+}
+    //I've gotta figure out how to make this transparent after 400px
+    // .header--transparent{
+    //     background-color: transparent;
+    // }
+    .header--hidden{
+        display: none;
+        
+    }
+    
 .menu-header{
     position: fixed;
-    // background-color: #00162b;
-    background-color: transparent;
     justify-content: space-between;
+    background-color: transparent;
     align-items: center;
     display: flex;
     top: 0;

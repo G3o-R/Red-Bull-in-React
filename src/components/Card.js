@@ -1,7 +1,6 @@
 import "../styles/Card.scss"
 
-function Card({image,header,summary,tag,readTime,id}){
-    console.log(header)
+function Card({image,header,summary,tag,readTime}){
     return(
         <div className="card">
             {/* image */}
