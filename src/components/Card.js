@@ -15,7 +15,7 @@ function Card({image,header,summary,tag,readTime}){
             <p className="header">{header}</p>
             <p className="summary">{summary}</p>
             <div className="bottom">
-            <p className="tag">{tag}</p>
+            <p className="tag" >{tag === "THE RED BULL BULLETIN" ? <img src="https://www.redbull.com/v3/resources/images/client/trb-logo-dark-v2.svg" alt="The Red Bull Bulletin"/> : tag}</p>
             <p className="read-Time">{readTime}</p>
             </div>
             </div>

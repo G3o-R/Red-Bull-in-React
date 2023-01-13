@@ -51,14 +51,24 @@
     }
 
     .menu-right-buttons{
+        justify-content: space-between;
+        width:92px;
         display: flex;  
-        padding: 0px 24px 0px 0px;      
+        padding: 0px 24px 0px 0px;
+        &:hover{#search{
+            background-color: #000f1e33 ;
+            border: 1px solid hsla(0,0%,100%,.2);
+            padding: 7px;
+            border-radius: 50%;
+        }
+    }
+        
     }
 
     .svg{
         height: 28px;
-        width: 28px;
-        padding: 0px 24px 0px 0px ;
+        // width: 28px;
+        // padding: 0px 24px 0px 0px ;
         fill: #f8f8f8;
         &:hover{
             cursor: pointer;

@@ -20,6 +20,7 @@ function Header({effect}){
                 <NavPill className="nav"/>
                 <div className="menu-right-buttons">
                 <UserIcon className="svg" id="user" />
+                {/* <br/> */}
                 <SearchIcon className="svg" id="search" />
                 </div>
 
