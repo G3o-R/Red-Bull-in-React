@@ -1,15 +1,11 @@
 import "../styles/Content.scss"
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 import Card from "./Card.js"
-// import CardData from "../data/cardData.js"
+import CardData from "../data/cardData.js"
 
 
 function Content(){
-    const [cardData, setCardData] = useState(null)
-    useEffect(()=>{
-        //use useEffect to make fetch request to cardData.json and setCardData to response
-        fetch()
-    })
+ 
 
     return(<div className="content-layout">
     <div className="title">Discover the World of Red Bull</div>
