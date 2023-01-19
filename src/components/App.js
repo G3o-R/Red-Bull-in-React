@@ -13,13 +13,13 @@ function App() {
   window.addEventListener("scroll",()=>{
     // console.log()
       if(lastScrollY > window.scrollY && window.scrollY > 400){
-          // setEffect("header--visible")
-          setEffect(null)
+          setEffect("header--visible")
+          // setEffect(null)
       }
       if(lastScrollY > window.scrollY && window.scrollY < 400){
           setEffect("header--transparent")
       }
-      else if(lastScrollY < window.scrollY){
+      else if(lastScrollY < window.scrollY && window.scrollY > 400){
           setEffect("header--hidden")
       }
       lastScrollY = window.scrollY

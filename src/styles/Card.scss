@@ -1,6 +1,6 @@
  .card{
-    max-width: 29.5rem;
-    max-height: 39.5rem;
+    width: 1fr;
+    max-height: auto;
     background-color: #FFFFFF;
     border: 1px solid hsla(0,0%,100%,.2);
     border-radius: 10px 10px 10px 10px ;
@@ -10,10 +10,10 @@
         max-height: 75%;
         
         .image{
-            max-width: 30rem;
+            width:100%;
             transition: .5s;
             &:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
             }
         }
     }
@@ -41,7 +41,10 @@
             font-size: 12px;
             justify-content: space-between;
             margin: 16px 0px 0px;
-            color: #A4A9AF ;
+            color: #A4A9AF;
+            .theRedBullBulletin{
+                max-height: 20px;
+            }
 
         }
     }
