@@ -1,12 +1,13 @@
 .navPill{
     display: flex;
+    justify-content: center;
     height:38px;
     align-items: center;
     background-color:rgba(0,15,30,.4);
     backdrop-filter: blur(20px);
     border: 1px solid hsla(0,0%,100%,.2);
     border-radius: 100px 100px 100px 100px;
-
+    
     .nav-content{
         color: #f8f8f8;
         justify-content: space-between;

@@ -1,16 +1,17 @@
 .container{
     left: -7px;
-    position: relative;
     top: -7px;
+    position: relative;
     width: calc(100% + 14px);
     .imageCarousel{
-        left: -7px;
-        position: relative;
-        top: -7px;
+        display: block;
         .img{
-                height: calc(100% + 14px);
-                width: calc(100% + 14px);
-                filter: grayscale(20%);
+            left: -7px;
+            top: -7px;
+            position: relative;
+            height: calc(100% + 14px);
+            width: calc(100% + 14px);
+            filter: grayscale(20%);
 
             }
     }
