@@ -3,18 +3,23 @@ import Header from "./Header"
 import ImageCarousel from "./ImageCarousel"
 import Content from "./Content.js"
 import FooterBillBoard from "./FooterBillboard"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function App() {
 
-  const [effect, setEffect] = useState(null)
+  const [effect, setEffect] = useState("header--transparent")
+  const [cardData, setCardData] = useState([])
+
+  useEffect(()=>{
+    fetch("http://localhost:3001/CardData")
+    .then(r=>r.json())
+    .then((cardData)=>setCardData(cardData))
+  },[])
 
   let lastScrollY = window.scrollY
   window.addEventListener("scroll",()=>{
-    // console.log()
       if(lastScrollY > window.scrollY && window.scrollY > 400){
           setEffect("header--visible")
-          // setEffect(null)
       }
       if(lastScrollY > window.scrollY && window.scrollY < 400){
           setEffect("header--transparent")
@@ -29,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <ImageCarousel />
-      <Content /> 
+      <Content cardData={cardData}/> 
       <Header effect={effect}/>
       <FooterBillBoard />
     </div>

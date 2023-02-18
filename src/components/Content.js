@@ -1,10 +1,8 @@
 import "../styles/Content.scss"
-// import { useEffect, useState } from "react"
 import Card from "./Card.js"
-import CardData from "../data/cardData.js"
 
 
-function Content(){
+function Content({cardData}){
  
 
     return(<div className="content-layout">
@@ -12,7 +10,7 @@ function Content(){
     <div className="card-feed">
         <div className="content-grid">
         {/* create card component */}
-        {CardData.map((data)=> <Card 
+        {cardData.map((data)=> <Card 
         image={data.image} 
         header={data.header} 
         summary={data.summary}
